@@ -1,1 +1,1 @@
-# Spanish Color Vocab Website
+# Spanish Color Vocabulary Website
