@@ -1,15 +1,42 @@
 .title {
     font-family: Menlo;
+    text-align: center;
+    color: lightskyblue;
+}
+
+body {
+    background-color: azure;
+}
+
+#container {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightblue;
+    border-radius: 2%;
+}
+
+.colors-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    margin: 20px;
 }
 
 .color-title {
     font-weight: normal;
+    text-align: center;
 }
 
 img {
     width: 200px;
     height: 200px;
-    border: 1px black;
+    border-style: solid;
+    border-radius: 5%;
 }
 
 #red {
@@ -30,4 +57,8 @@ img {
 
 #yellow {
     color: yellow;
+}
+
+#brown {
+    color: brown;
 }
